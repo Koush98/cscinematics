@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css"></style>
+</head>
+
+
+
+<body>
+  <!-- Swiper -->
+  <div class="header">
+    <div class="nav">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      <div class="full">
+        <div class="close-button" onclick="toggleMenu()">Close</div>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="service.html"><li>Service</li></a>
+          <a href="contact"><li>Contact</li></a>
+          </ul>
+      </div>
+    </div>
+    <div class="logo">
+      <a href="index.html"><img src="cslogo.png"></a>
+    </div>
+    <a href="form.html"><button id="btn1">Book</button></a>
+  </div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="video"><a href="wedding.html"><video src="intro.mp4" autoplay muted></video></a></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="video"><a href="reels.html"><video src="wed2.mp4" autoplay muted></video></a></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="video"><a href="music.html"><video src="gym.mp4" autoplay muted></video></a></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="video"><a href="adv.html"><video src="wed1.mp4" autoplay muted></video></a></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="video"><a href="short.html"><video src="fifa.mp4" autoplay muted></video></a></div>
+      </div>
+    </div>
+    <!--  <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>-->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <main>
+    <div class="hero">
+      <h1 class="text-animation">Elevating Moments,Crafting Memories<br>Where Every Frame Tells Your Story.</h1>
+    </div>
+  </main>
+  <section class="section">
+    <div id="box1" class="box">
+      <p>Capturing Love, Framing Forever</p>
+      <h2>Wedding</h2>
+      <h3>Your Wedding Story in Cinematic Splendor.</h3>
+      <a href="wedding.html"><button class="btn2">Learn More > </button></a>
+      <a href="form.html"><button class="btn3">Book Now > </button></a>
+    </div>
+    <div id="box2" class="box">
+      <p>Reel Moments, Real Emotions</p>
+      <h2>Reels</h2> 
+      <h3>Your Life in Motion, Our Expertise in Every Frame.</h3>
+      <a href="reels.html"><button class="btn2">Learn More > </button></a>
+      <a href="form.html"><button class="btn3">Book Now > </button></a>
+    </div>
+    <div id="box3" class="box">
+      <p>Ignite Your Brand, Spark Success</p>
+      <h2>Advertising</h2>
+      <h3>Unleashing the Power of Visual Storytelling in Every Ad.</h3>
+      <a href="adv.html"><button class="btn2">Learn More > </button></a>
+      <a href="form.html"><button class="btn3">Book Now > </button></a>
+    </div>
+    <div id="box4" class="box">
+      <p>Harmony in Motion, Lyrics in Every Frame</p>
+      <h2>Music Video</h2>
+      <h3>Elevate Your Sound, Amplify Your Visual Symphony.</h3>
+      <a href="music.html"><button class="btn2">Learn More > </button></a>
+      <a href="form.html"> <button class="btn3">Book Now > </button></a>
+    
+    </div>
+    <div id="box5" class="box">
+      <p>Short Films, Endless Stories</p>
+      <h2>Short Film</h2>
+      <h3>Crafting Cinematic Journeys in Every Frame.</h3>
+      <a href="short.html"><button class="btn2">Learn More > </button></a>
+      <a href="form.html"><button class="btn3">Book Now > </button></a>
+    </div>
+  </section>
+  
+  <div class="why">
+    <h5>At CS Cinematics, we redefine visual storytelling. </h5>
+    <strong> Here's why you should choose us</strong>
+    <div class="why1">
+      <h2>Capturing Timeless Moments</h2>
+      <p>From heartfelt wedding videos to captivating music videos, we specialize in capturing timeless moments that you'll cherish forever.</p>
+    </div>
+    <div class="why2">
+      <h2>Dynamic Reels for Every Occasion</h2>
+      <p>Our reel videos are not just reels; they are a dynamic showcase of your life's highlights, events, or brand story, meticulously crafted to engage and inspire.</p>
+    </div>
+    <div class="why3">
+        <h2>Harmonizing Music and Vision</h2>
+        <p>In our music videos, we don't just capture the beats; we create a visual symphony that harmonizes seamlessly with the rhythm of your music, enhancing the overall experience.
+        </div>
+    <div class="why4">
+      <h2>Compelling Advertising</h2>
+      <p>For businesses, our advertising services go beyond promotion – we create compelling visual narratives that resonate with your audience, driving brand awareness and loyalty.</p>
+    </div>
+    <div class="why5">
+      <h2>Brand Promotion with Impact</h2>
+      <p>Elevate your brand with our promotion services. We craft visuals that not only showcase your brand but leave a lasting impression, fostering connection and recognition.</p>
+    </div>
+    <div class="why6">
+      <h2>Innovative Approach</h2>
+      <p>We bring innovation to every project. Expect fresh ideas, creative angles, and cutting-edge techniques that set your visuals apart in a crowded digital landscape.</p>
+    </div>
+        <div class="why7">
+          <h2>Customer-Centric Experience</h2>
+          <p>Your vision is our priority. We collaborate closely with clients, ensuring that every project reflects your unique style, goals, and aspirations.</p>
+        </div>
+  </div>
+  
+  <footer>
+    <div class="social">
+      <a href="https://www.facebook.com/profile.php?id=100077052031853&mibextid=2JQ9oc" <i class="fa-brands fa-facebook"></i>
+      <a href="https://instagram.com/cs.cinematics?igshid=NzZlODBkYWE4Ng="<i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://youtube.com/@Csedits123?si=SLl3Ci68Jy1-rEtA"> <i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <p>Copyright © 2023 Cs All Rights Reserved</p>
+    <h4>Cs Privacy Policy | Terms of use</h4>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
