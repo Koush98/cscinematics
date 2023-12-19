@@ -26,3 +26,13 @@ function toggleMenu() {
   const menu = document.querySelector('.full');
   menu.style.display = menu.style.display === 'none' || menu.style.display === '' ? 'block' : 'none';
 }
+
+while True:
+    # Code inside the loop
+    print("This loop is infinite!")
+
+
+
+
+
+
